@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignments</title>
+    <style>
+        .menu{
+            position:sticky;
+            top:0;
+            background-color:rgb(79, 46, 200);
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin:0 auto;
+            overflow:hidden;
+        }
+        .menu a{
+            float:left;
+            color:white;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+            font-size:20px;
+        }
+        .menu-logo{
+            right:auto;
+            float:right;
+        }
+        footer {
+            width: 1000%;
+            bottom: 0px;
+            background-color: yellowgreen;
+            color: white;
+            position: static;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: left;
+        }
+       
+        table,th,td{
+            border:1px solid black;
+            border-collapse:collapse;
+            padding:10px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>H<sub>2</sub>+O<sub>2</sub>--->H<sub>2</sub>O</p>
+    </div>
+    <div>
+        <a href="https://www.geeksforgeeks.org/user/login/" target="_blank"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png" alt="geeksforgeeks"></a>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+                <legend>REGISTRATION FORM</legend>
+                <label>NAME: <input name="name"> </label> <br><br>
+                <label>DATEOFBIRTH: <input type="date" name="dob"></label><br><br>
+                <label>REGISTRATION NUMBER:<input type="txt" name="registration number:"></label> 
+                <br><br>
+                <label>ADDRESS: <input type="txt" name="address" ></label><br><br>
+                <button><input type="submit"></button>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>node.js</li>
+            <li>bootstrap</li>
+            <li>express.js</li>
+            <li>react.js</li>
+            <li>mongodb</li>
+        </ol>
+        <ul list-style-type="disc">
+            <li>java</li>
+            <li>python</li>
+            <li>javascript</li>
+            <li>c</li>
+            <li>c++</li>
+            <li>ruby</li>
+            <li>c#</li>
+
+        </ul>
+    </div>
+    <div>
+        <footer>
+            @GeeksforGeeks, Sanchhaya Education Private Limited, All rights reserved
+        </footer>
+    </div>
+    <div>
+        <h1>Semantic Elements</h4>
+        <header>
+            <h2>NUTRI TRADE HUB</h2>
+        </header>
+        <article>
+        <h3>A platform for people to buy Nutritional Food</h3>
+        <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#yourcart">  Your Cart </a>
+        <a href="#notifications">    Notifications</a>
+        <div class="menu-logo">
+            <a href="#login">Login</a>
+        </div>
+        </div>
+            <section id="content">
+                <p>Welcome to our Nutritional Food platform where you can find a variety of healthy food options.</p>
+            </section>
+        </article>
+        <footer>
+            &copy; 2023 Nutritional Food Hub. All rights reserved.
+        </footer>
+    </div>
+    <div>
+        <h4>STUDENT GRADES</h4>
+        <table>
+            <tr>
+            <th>name</th>
+            <th>subject</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>Haneesha</td>
+            <td>maths</td>
+            <td>90</td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
